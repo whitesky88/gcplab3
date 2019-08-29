@@ -1,0 +1,14 @@
+Goal: use Terraform module
+
+Infrastructure as service (IaaS): {AWS, AZURE, Google Cloud} ==> primitives
+Platform as service (PaaS): {Heroku, Docker Cloud, Engine Yard} ==> higher api for deploying app
+PaaS limitation: scale, customize
+
+
+module "foo" {
+    source = "[/path/to/module]"
+    instance_name = "actual_name"
+}
+
+level 0: CPU, Memory, Disk Drive, Network, Server, DB
+level 1: Rails, MySQL, GitHub
