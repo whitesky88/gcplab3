@@ -20,4 +20,3 @@ resource "google_compute_instance" "lab1-vm" {
     }
     
 }
-

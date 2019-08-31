@@ -43,7 +43,7 @@ export GCLOUD_REGION="us-west1"
 10. terraform plan
 11. terraform apply
 12. terraform destroy
-
+13. define output variable in module so the calling module can reference
 
 
 
